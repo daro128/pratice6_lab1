@@ -1,0 +1,13 @@
+.main{
+  
+    margin: 50pxpx;
+    background-color: rgb(52, 141, 141);
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+}
+input{
+    margin: 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
