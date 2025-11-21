@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    background-color: rgb(67, 150, 150);
+    width: 600px;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+    height: 610px;
+    background-color: rgb(76, 105, 105);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; 
+
+}
+h1{
+    background-color: rgb(158, 201, 239);
+    display: flex;
+    grid-column: span 2;  
+    justify-content: center;
+    height: 50px;
+}
+.email{
+    grid-column: span 2;
+}
+input[type="email"]{
+    width: 525px;
+    height: 25px;
+    border-radius: 5px;
+}
+.end{
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+input[type="text"],input[ type="password"],input[type="number"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+input[type="range"] {
+    width: 80%;
+    height: 6px;
+
+}
+select{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.area{
+    grid-column: span 2;
+}
+textarea{
+    width: 525px;
+    border-radius: 10px;
+}
+button[class="end"]{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    align-items:center ;
+    background-color: aqua;
+}
